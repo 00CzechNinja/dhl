@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="import" href="components/layout.html">
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+    $(function(){
+        $('#layout').load("components/layout.html");
+    });
+</script>
+<header><img class="logo" src="img/dhl.svg" alt="logo"></header>
+<body>
+<div id="layout"></div>
+</body>
+<footer><img class="logo" src="img/dhl-group-logo-black.png"></footer>
+</html>

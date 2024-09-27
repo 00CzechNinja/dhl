@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    font-family: Rubik;
+    color: black;
+    background-color: white;
+}
+.row{
+    display: flex;
+}
+.column{
+    width: 50%;
+}
+header{
+    background-color: #FFCC00;
+}
+.logo{
+width: 140px;
+padding: 0;
+margin: 0;
+margin-left:20px ;
+}
+footer{
+    background-color: gray;
+}
